@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bengle\\Projects\\EEMG\\EEMG\\EEMG\\EEMG.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bengle\\Projects\\EEMG\\EEMG\\EEMG\\EEMG.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bengle\\Projects\\EEMG\\EEMG\\EEMG\\EEMG.csproj",
+        "projectName": "EEMG",
+        "projectPath": "C:\\Users\\bengle\\Projects\\EEMG\\EEMG\\EEMG\\EEMG.csproj",
+        "packagesPath": "C:\\Users\\bengle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bengle\\Projects\\EEMG\\EEMG\\EEMG\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bengle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bengle\\Projects\\Wargaming\\ISWAT 3\\Main-v300\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.12, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.12, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
